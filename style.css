@@ -1,0 +1,24 @@
+body {
+  font-style: sans-serif, cursive;
+}
+.jumbotron {
+  padding-top: 8rem;
+  background-color: #bbd3f7;
+}
+footer {
+  text-align: center;
+  background-color: #006db6;
+}
+#projects {
+  background-color: #bbd3f7;
+}
+section {
+  padding-top: 6rem;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h3 {
+  font-family: 'Pacifico', cursive;
+}
