@@ -22,3 +22,7 @@ h1,
 h3 {
   font-family: 'Pacifico', cursive;
 }
+.botton-up {
+  margin-right: 30px;
+  background-color: red;
+}
