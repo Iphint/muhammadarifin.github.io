@@ -204,8 +204,15 @@
           <div class="col-md-1">
             <p><i class="bi bi-facebook"></i> <a href="https://www.facebook.com/profile.php?id=100029992385046" class="text-warning fw-bold" target="blank">Facebook</a></p>
           </div>
-          <div class="col-md-1 mb-5">
+          <div class="col-md-1">
             <p><i class="bi bi-twitter"></i> <a href="https://twitter.com/Iphint997" class="text-warning fw-bold" target="blank">Twitter</a></p>
+          </div>
+        </div>
+        <div class="row justify-content-end">
+          <div class="col-md-2 mb-5">
+            <p>
+              <a href="#home" class="text-warning fw-bold"><i class="bi bi-arrow-up-circle"></i></a>
+            </p>
           </div>
         </div>
       </div>
@@ -223,6 +230,7 @@
 
       form.addEventListener('submit', (e) => {
         e.preventDefault();
+
         // ketika klik submit
         // menghilangkan tombol loading
         btnLoading.classList.toggle('d-none');
@@ -233,8 +241,10 @@
             // menghilangkan tombol loading
             btnLoading.classList.toggle('d-none');
             btnKirim.classList.toggle('d-none');
+
             // tampilkan alert
             myAlert.classList.toggle('d-none');
+
             // reset form
             form.reset();
             console.log('Success!', response);
