@@ -19,12 +19,14 @@ a {
   text-decoration: none;
 }
 h1,
+h2,
 h3,
 a {
-  font-family: 'Caveat', cursive;
+  font-family: 'Sansita Swashed', cursive;
   letter-spacing: 5px;
 }
 p {
-  font-size: 18px;
+  font-size: 14px;
   font-family: 'Lobster', cursive;
+  letter-spacing: 2px;
 }
